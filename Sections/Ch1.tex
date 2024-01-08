@@ -2,7 +2,7 @@
 \section{Interactions of Particles and Radiation with Matter}
     
 \begin{problem}{1.1}
-
+The range of a 100 keV electron in water is about 200 $\unit{\micro\meter}$. Estimate its stopping time.
 \end{problem}
 \begin{solution}
 
@@ -13,7 +13,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{problem}{1.2}
+The energy loss of TeV muons in rock can be parametrised by
 
+\begin{align*}
+    - \frac{\dif E}{\dif x} = a + bE
+\end{align*}\\
+where $a$ stands for a parametrisation of the ionisation loss and the $b$ term includes bremsstrahlung, direct electron-pair production and nuclear interactions $\left( a\approx 2\unit{ MeV}/(\unit{g/cm^2}), b=\num{4.4e-6}(\unit{g/cm^2})^{-1} \right)$. Estimate the range of a 1 TeV muon in rock.
 \end{problem}
 \begin{solution}
 
@@ -24,7 +29,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{problem}{1.3}
-
+    Monoenergetic electrons of 500keV are stopped in a silicon counter. Work out the energy resolution of the semiconductor detector if a Fano factor of 0.1 at 77 K is assumed.
 \end{problem}
 \begin{solution}
 
@@ -35,7 +40,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{problem}{1.4}
+For non-relativistic particles of charge z the Bethe-Bloch formula can be approximated by
 
+\begin{align*}
+    - \frac{\dif E_{\text{kin}}}{\dif x} = a \frac{z^2}{E_{\text{kin}}} \ln\left(bE_{\text{kin}}\right),
+\end{align*}\\
+where $a$ and $b$ are material-dependent constants (different from those in Problem 1.2). Work out the energy-range relation if $ \ln\left(bE_{\text{kin}}\right)$ can be approximated by $\left(bE_{\text{kin}}\right)^{1/4}$.
 \end{problem}
 \begin{solution}
 
@@ -46,7 +56,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{problem}{1.5}
-
+In \textit{Compton telescopes} for astronomy or medical imaging one frequently needs the relation between the scattering angle of the electron and that of the photon/ Work out this relation from momentum conservation in the scattering process.
 \end{problem}
 \begin{solution}
 
@@ -57,7 +67,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{problem}{1.6}
-
+The ionisation trail of charged particles in a gaseous detector is mostly produced by low-energy electrons. Occasionally, a larger amount of energy can be transferred to electrons ($\delta$ rays, knock-on electrons). Derive the maximum energy that a 100 GeV muon can transfer to a free electron at rest in a $\mu e$ collision.
 \end{problem}
 \begin{solution}
 
@@ -68,7 +78,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{problem}{1.7}
+The production of $\delta$ rays can be described by the Bethe-Bloch formula. To good approximation the probability for $\delta$-ray production is given by
 
+\begin{align*}
+    \phi(E) \dif E = K \frac{1}{\beta^2} \frac{Z}{A} \cdot \frac{x}{E^2} \dif E,
+\end{align*}\\
+where
+
+\begin{align*}
+    K &= 0.154 \unit{MeV}/(\unit{g/cm^2}),\\
+    Z,A &= \text{atomic number and mass of the target},\\
+    x &= \text{absorber thickness in } \unit{g/cm^2},\\
+\end{align*}
+Work out the probability that a 10 GeV muon produces a $\delta$ ray of more than $E_0 = 10$ MeV in an 1 cm argon layer (gas at standard room temperature and pressure).
 \end{problem}
 \begin{solution}
 
@@ -79,7 +101,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{problem}{1.8}
-
+Relativistic particles suffer an approximately constant ionisation energy loss of about 2 $\unit{MeV}/(\unit{g/cm^2})$. Work out the depth-intensity relation of cosmic-ray muons in rock and estimate the intensity variation if a cavity of height $\Delta h$ = 1 m at a depth of 100 m were in the muon beam.
 \end{problem}
 \begin{solution}
 
